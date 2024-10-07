@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import UIKit
 
+// The main entry point of the Rides application.
 @main
 struct RidesApp: App {
+    // The body property defines the main scene of the application.
     var body: some Scene {
         WindowGroup {
-            VehicleListView(viewModel: VehicleListViewModel())
+            // The initial view of the app, displaying the list of vehicles.
+            VehicleListView(viewModel: VehicleListViewModel()) // Pass a new instance of VehicleListViewModel to the VehicleListView.
         }
     }
 }
