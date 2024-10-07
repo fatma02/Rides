@@ -1,0 +1,8 @@
+//
+//  release.xcconfig
+//  Rides
+//
+//  Created by Fatma Fitouri on 4/10/2024.
+//
+
+VEHICLE_HOST = random-data-api.com
