@@ -10,10 +10,15 @@
 		133D12C12CB16FA2000B2379 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12C02CB16FA2000B2379 /* CustomSearchBar.swift */; };
 		133D12C42CB18576000B2379 /* VehicleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12C32CB18576000B2379 /* VehicleDetailsViewModel.swift */; };
 		133D12C72CB18594000B2379 /* VehicleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12C62CB18594000B2379 /* VehicleDetailsView.swift */; };
+		133D12CF2CB312B1000B2379 /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12CE2CB312B1000B2379 /* ToastMessageView.swift */; };
+		133D12D12CB32052000B2379 /* VehicleListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12D02CB32052000B2379 /* VehicleListTests.swift */; };
+		133D12D42CB32910000B2379 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12D32CB32910000B2379 /* DetailsView.swift */; };
+		133D12D62CB33130000B2379 /* EstimatedCarbonEmissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12D52CB33130000B2379 /* EstimatedCarbonEmissionView.swift */; };
+		133D12D82CB36871000B2379 /* VehicleDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133D12D72CB36871000B2379 /* VehicleDetailsTests.swift */; };
+		133D12DA2CB36E54000B2379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133D12D92CB36E54000B2379 /* LaunchScreen.storyboard */; };
 		136B42082CB0255B000177A9 /* RidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B42072CB0255B000177A9 /* RidesApp.swift */; };
 		136B420C2CB0255D000177A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136B420B2CB0255D000177A9 /* Assets.xcassets */; };
 		136B420F2CB0255D000177A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136B420E2CB0255D000177A9 /* Preview Assets.xcassets */; };
-		136B42192CB0255E000177A9 /* RidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B42182CB0255E000177A9 /* RidesTests.swift */; };
 		136B42232CB0255E000177A9 /* RidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B42222CB0255E000177A9 /* RidesUITests.swift */; };
 		136B42252CB0255E000177A9 /* RidesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B42242CB0255E000177A9 /* RidesUITestsLaunchTests.swift */; };
 		136B42332CB028C9000177A9 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B42322CB028C9000177A9 /* Vehicle.swift */; };
@@ -48,12 +53,17 @@
 		133D12C02CB16FA2000B2379 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		133D12C32CB18576000B2379 /* VehicleDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsViewModel.swift; sourceTree = "<group>"; };
 		133D12C62CB18594000B2379 /* VehicleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsView.swift; sourceTree = "<group>"; };
+		133D12CE2CB312B1000B2379 /* ToastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageView.swift; sourceTree = "<group>"; };
+		133D12D02CB32052000B2379 /* VehicleListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListTests.swift; sourceTree = "<group>"; };
+		133D12D32CB32910000B2379 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		133D12D52CB33130000B2379 /* EstimatedCarbonEmissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedCarbonEmissionView.swift; sourceTree = "<group>"; };
+		133D12D72CB36871000B2379 /* VehicleDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsTests.swift; sourceTree = "<group>"; };
+		133D12D92CB36E54000B2379 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136B42042CB0255B000177A9 /* Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136B42072CB0255B000177A9 /* RidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesApp.swift; sourceTree = "<group>"; };
 		136B420B2CB0255D000177A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136B420E2CB0255D000177A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		136B42142CB0255E000177A9 /* RidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		136B42182CB0255E000177A9 /* RidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesTests.swift; sourceTree = "<group>"; };
 		136B421E2CB0255E000177A9 /* RidesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		136B42222CB0255E000177A9 /* RidesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesUITests.swift; sourceTree = "<group>"; };
 		136B42242CB0255E000177A9 /* RidesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -108,9 +118,19 @@
 		133D12C52CB18588000B2379 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				133D12D22CB328F1000B2379 /* Components */,
 				133D12C62CB18594000B2379 /* VehicleDetailsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		133D12D22CB328F1000B2379 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				133D12D32CB32910000B2379 /* DetailsView.swift */,
+				133D12D52CB33130000B2379 /* EstimatedCarbonEmissionView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		136B41FB2CB0255B000177A9 = {
@@ -145,6 +165,7 @@
 				136B42072CB0255B000177A9 /* RidesApp.swift */,
 				136B420B2CB0255D000177A9 /* Assets.xcassets */,
 				136B420D2CB0255D000177A9 /* Preview Content */,
+				133D12D92CB36E54000B2379 /* LaunchScreen.storyboard */,
 			);
 			path = Rides;
 			sourceTree = "<group>";
@@ -160,7 +181,8 @@
 		136B42172CB0255E000177A9 /* RidesTests */ = {
 			isa = PBXGroup;
 			children = (
-				136B42182CB0255E000177A9 /* RidesTests.swift */,
+				133D12D02CB32052000B2379 /* VehicleListTests.swift */,
+				133D12D72CB36871000B2379 /* VehicleDetailsTests.swift */,
 			);
 			path = RidesTests;
 			sourceTree = "<group>";
@@ -215,6 +237,7 @@
 				136B42402CB059B9000177A9 /* VehicleItem.swift */,
 				136B42502CB07977000177A9 /* DropMenuButton.swift */,
 				133D12C02CB16FA2000B2379 /* CustomSearchBar.swift */,
+				133D12CE2CB312B1000B2379 /* ToastMessageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -350,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133D12DA2CB36E54000B2379 /* LaunchScreen.storyboard in Resources */,
 				136B420F2CB0255D000177A9 /* Preview Assets.xcassets in Resources */,
 				136B420C2CB0255D000177A9 /* Assets.xcassets in Resources */,
 			);
@@ -379,14 +403,17 @@
 				133D12C12CB16FA2000B2379 /* CustomSearchBar.swift in Sources */,
 				136B42332CB028C9000177A9 /* Vehicle.swift in Sources */,
 				136B423A2CB02A9B000177A9 /* VehicleListViewModel.swift in Sources */,
+				133D12D62CB33130000B2379 /* EstimatedCarbonEmissionView.swift in Sources */,
 				136B42492CB065A3000177A9 /* VehiclesAPI.swift in Sources */,
 				136B42442CB05A2B000177A9 /* View+Extensions.swift in Sources */,
 				136B42412CB059B9000177A9 /* VehicleItem.swift in Sources */,
 				133D12C42CB18576000B2379 /* VehicleDetailsViewModel.swift in Sources */,
 				136B42512CB07977000177A9 /* DropMenuButton.swift in Sources */,
+				133D12CF2CB312B1000B2379 /* ToastMessageView.swift in Sources */,
 				136B424E2CB06712000177A9 /* Configuration.swift in Sources */,
 				136B42472CB06090000177A9 /* FetchAPI.swift in Sources */,
 				133D12C72CB18594000B2379 /* VehicleDetailsView.swift in Sources */,
+				133D12D42CB32910000B2379 /* DetailsView.swift in Sources */,
 				136B42082CB0255B000177A9 /* RidesApp.swift in Sources */,
 				136B42372CB02A15000177A9 /* VehicleListView.swift in Sources */,
 			);
@@ -396,7 +423,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136B42192CB0255E000177A9 /* RidesTests.swift in Sources */,
+				133D12D82CB36871000B2379 /* VehicleDetailsTests.swift in Sources */,
+				133D12D12CB32052000B2379 /* VehicleListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -536,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -561,7 +589,8 @@
 				INFOPLIST_FILE = Rides/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -572,6 +601,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Fatma.Rides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -594,7 +627,8 @@
 				INFOPLIST_FILE = Rides/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -605,6 +639,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Fatma.Rides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -7,9 +7,12 @@
 
 import SwiftUI
 
+// A view that displays a vehicle item with a title and subtitle.
 struct VehicleItem: View {
 
+    // The main title text for the vehicle item.
     let titleText: String
+    // The subtitle text for additional information about the vehicle.
     let subTitleText: String
 
     var body: some View {

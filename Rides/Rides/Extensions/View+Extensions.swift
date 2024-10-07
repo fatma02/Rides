@@ -7,7 +7,9 @@
 
 import SwiftUI
 
+// Extension to provide additional functionality to all SwiftUI Views.
 extension View {
+    // Send an action to resign the first responder, effectively dismissing the keyboard.
     func hideKeyboard() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
